@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inventory</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    
+    <body>
+
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="newShow.html">New Show</a>
+            <a href="savedShows.html">Saved Shows</a>
+            <a href="tipsandvideos.html">Tips & Videos</a>
+            <a class="active" href="inventory.html">Inventory</a>
+        </div>
+
+        <div class="tabs">
+            <!---must have same name to prevent checking overlap in checked-->
+            <input type="radio" class="tabs__radio" name="inventory-tabs" id="lightsTab" checked>
+            <label for="lightsTab" class="tabs__label">LIGHTS</label>
+            <div class="tabs__content">
+                
+                <div class = "inventoryTable" id = "lightsInventoryTable">
+                    <table>
+                        <tr>
+                            <th><h1>Type of Light</h1></th>
+                            <th><h1>Picture and Notes</h1></th>
+                        </tr>
+
+                        <tr>
+                            <td><h2>Leko</h2></td>
+                            <td><img src="https://www.filmmakersacademy.com/wp-content/uploads/2015/08/image003.png" alt="Leko Light" width = 200>
+                                <p>This light is typically used as front light for the actors. Putting gels in the lights allows the play to have color on stage. However, this particular light only dims and turns on.</p></td>
+                        </tr>
+
+                        <tr>
+                            <td><h2>Par</h2></td>
+                            <td><img src="https://www.sweetwater.com/insync/media/2019/08/par.jpg" alt="Par Light" width = 200>
+                                <p>Similar to the Leko light in terms of its use, this light is  used to help light the people on stage. Different gels can be used to create different colors with the light. However, this particular light only dims and turns on.</p></td>
+                        </tr>
+
+                        <tr>
+                            <td><h2>LED Strip</h2></td>
+                            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHe_VcrbWTfQBc2OtFcK9dzvYMrSC0KH9a_1vtVRSphQ&usqp=CAU&ec=48665699" alt="LED Light" width = 200>
+                        <p>LED strip lights are mainly used for color. These particular lights are not advanced, but they can give a basic wash of color on the stage. A word of caution about these specific LED strips is that they make certain colors by simply turning on various colored lights (e.g., make green by turning on blue and red). This sometimes results in the desired color you want not appearing on stage.</p></td>
+                        </tr>
+
+                        <tr>
+                            <td><h2>Moving Light</h2></td>
+                            <td><img src=https://i0.wp.com/eralighting.com/wp-content/uploads/2014/12/main_qimg_c24690355460dfd57c39259da2379b84.jpg?resize=602%2C593&ssl=1" alt="Moving Light" width = 200>
+                        <p>Movers can be used for various purposes. However, one of there most important characteristics is that they are able to move automatically (with the help of coding). Depending on the light, colors can be mixed to make a desired colored. However, those are more advanced than the light pictured here.
+                            This light is primarily good for accenting specific objects or people that are not moving. This provides dashes of color on the stage to make it more visually appealing.</p></td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+
+            <input type="radio" class="tabs__radio" name="inventory-tabs" id="wiresTab">
+            <label for="wiresTab" class="tabs__label">WIRES</label>
+            <div class="tabs__content">
+                <div class = "inventoryTable" id = "lightsInventoryTable">
+                    <table>
+                        <tr>
+                            <th><h1>Type of Wire</h1></th>
+                            <th><h1>Picture and Notes</h1></th>
+                        </tr>
+
+                        <tr>
+                            <td><h2>Power Cord (LED)</h2></td>
+                            <td><img src="https://www.bhphotovideo.com/images/images500x500/gefen_cab_powercord_us_iec_c13_outlet_ac_1521100657_1362940.jpg" alt="Power Transfer Wire LED" width = 200>
+                                <p>This cord helps transfer power across lights, specifically ones such as the LED light strips. There must be a side that gives power and one that receives power to have this happen.
+                                    A person would "daisy chain" a wire to each light they want to give power to with this power cord.</p></td>
+                        </tr>
+
+                        <tr>
+                            <td><h2>Power Cord (movers)</h2></td>
+                            <td><img src="https://ae01.alicdn.com/kf/S0bca3a77041d4901971a1d14a01002b5d/Stage-Light-Power-Cable-LED-Moving-Head-Light-Power-Corn-Power-In-Power-Out-Power-Connection.jpg_Q90.jpg_.webp" alt="Power Transfer Wire Mover" width = 200>
+                                <p>Simlar to the power cord for LEDs, this cord allows movers to transfer power across the movers. The difference between the LED and mover wires is the blue part at the end of the cord.</p></td>
+                        </tr>
+
+                        <tr>
+                            <td><h2>DMX Cables</h2></td>
+                            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBO_mK6_A65jqFoK_Zid4Bl9p3Ko25ZO_BxH5Pb9ykWQ&usqp=CAU&ec=48665699" alt="DMX Cable" width = 200>
+                                <p>DMX cables are how lights are able to transfer information amongst each other. The most common DMX cables used for lights are the 3-pin or 5-pin DMX cables. They can vary greatly in length</p></td>
+                        </tr>
+
+                        <tr>
+                            <td><h2>DMX Transfer</h2></td>
+                            <td><img src="https://m.media-amazon.com/images/I/71LAX3cZkrL.jpg" alt="DMX transfer" width = 200>
+                                <p>DMX transfer cables can help different DMX cables transfer infomration. For example, it can make a 3-pin DMX connect to a 5-pin DMX and vice versa.
+                                    These connectors will either have a "male" 3-pin and a "female" 5-pin and vice versa.</p></td>
+                        </tr>
+
+                        <tr>
+                            <td><h2>Stage Pin</h2></td>
+                            <td><img src="data:image/jpeg;base64,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"
+                                alt="Stage Pin" width = 200>
+                            <p>Stage pins are give lights power. They spcifically have the three prongs ends and openings at the end to allow certain lights to transfer power.</p></td>
+                        </tr>
+
+                        <tr>
+                            <td><h2>Twofer</h2></td>
+                            <td><img src="https://media.musson.com/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/l/e/lex_2fer_gsp.jpg" alt="Twofer" width = 200>
+                            <p>A twofer is essentially a stage pin, but it has one male-pin and two female-pin. This allows one  power source to be outsourced to two lights at the same time.</p></td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+
+            <input type="radio" class="tabs__radio" name="inventory-tabs" id="createYourOwnTab">
+            <label for="createYourOwnTab" class="tabs__label">CREATE YOUR OWN</label>
+            <div class="tabs__content">
+                <iframe src="https://docs.google.com/spreadsheets/d/1DjvCD7n3pXv2Z5jLXPzRJTcMbbll7S55plmgikQIl68/edit?usp=sharing" height= "600" width="1300"title="New Spread Sheet Template"></iframe>
+            </div>
+
+        </div>
+
+        <!---<h1><center></center></h1>
+        <h4>&nbsp</h4>
+        <h2><center>NEW SHOW</center></h2>
+        <h4>&nbsp</h4>
+        <h2><center>NEW SHOW</center></h2>
+        <h4>&nbsp</h4>
+        <center><h2>TIPS & VIDEOS</h2></center>
+        <h4>&nbsp</h4>
+        <center><h2>INVENTORY</h2></center>
+        <p>This is a paragraph.</p>--->
+
+    </body>
+</html>
